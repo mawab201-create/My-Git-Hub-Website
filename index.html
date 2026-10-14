@@ -4,12 +4,499 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
+
+    <title>TechNova | Digital Agency</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <h1>Hello GitHub!</h1>
-    <p>My first website using VS Code.</p>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#home">
+                Tech<span class="text-info">Nova</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary mt-2 mt-lg-0" href="#contact">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="bg-primary text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <span class="badge bg-light text-primary mb-3 p-2">
+                        Creative Digital Agency
+                    </span>
+
+                    <h1 class="display-3 fw-bold">
+                        Build Your Digital Future With Us
+                    </h1>
+
+                    <p class="lead my-4">
+                        We create modern websites and digital solutions
+                        to help your business grow online.
+                    </p>
+
+                    <a href="#services" class="btn btn-light btn-lg me-2">
+                        Explore Services
+                    </a>
+
+                    <a href="#projects" class="btn btn-outline-light btn-lg">
+                        Our Projects
+                    </a>
+
+                    <div class="row mt-5 text-center">
+                        <div class="col-4">
+                            <h3 class="fw-bold">50+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">30+</h3>
+                            <p>Clients</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">3+</h3>
+                            <p>Years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid rounded-4 shadow" alt="Modern workspace">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-5">
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold">WHAT WE DO</h6>
+                <h2 class="display-5 fw-bold">Our Services</h2>
+                <p class="text-secondary">
+                    Professional solutions for your digital success.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-code-slash fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">Web Development</h4>
+                            <p class="card-text text-secondary">
+                                Modern, responsive websites for businesses and brands.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-palette fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">UI/UX Design</h4>
+                            <p class="card-text text-secondary">
+                                Attractive and user-friendly digital experiences.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-megaphone fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">Digital Marketing</h4>
+                            <p class="card-text text-secondary">
+                                Reach more people and grow your online presence.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-cart-check fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">E-Commerce</h4>
+                            <p class="card-text text-secondary">
+                                Create a professional online shopping experience.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-phone fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">Responsive Design</h4>
+                            <p class="card-text text-secondary">
+                                Websites that work across phones, tablets and computers.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <i class="bi bi-headset fs-1 text-primary"></i>
+                            <h4 class="card-title mt-3">Technical Support</h4>
+                            <p class="card-text text-secondary">
+                                Help with website maintenance and improvements.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-primary">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold">OUR PORTFOLIO</h6>
+                <h2 class="display-5 fw-bold">Featured Projects</h2>
+                <p class="text-secondary">
+                    Take a look at our sample project designs.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Business dashboard">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">Web Design</span>
+                            <h5 class="card-title fw-bold">Business Dashboard</h5>
+                            <p class="card-text text-secondary">
+                                A modern dashboard design for business data.
+                            </p>
+                            <a href="#contact" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Online store">
+                        <div class="card-body p-4">
+                            <span class="badge bg-success mb-2">E-Commerce</span>
+                            <h5 class="card-title fw-bold">Online Store</h5>
+                            <p class="card-text text-secondary">
+                                A simple and attractive online shopping concept.
+                            </p>
+                            <a href="#contact" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top" alt="Learning platform">
+                        <div class="card-body p-4">
+                            <span class="badge bg-warning text-dark mb-2">Education</span>
+                            <h5 class="card-title fw-bold">Learning Platform</h5>
+                            <p class="card-text text-secondary">
+                                A website concept for online learning.
+                            </p>
+                            <a href="#contact" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid rounded-4 shadow" alt="Team working together">
+                </div>
+
+                <div class="col-lg-6">
+                    <h6 class="text-primary fw-bold">ABOUT US</h6>
+                    <h2 class="display-5 fw-bold">We Turn Ideas Into Reality</h2>
+
+                    <p class="text-secondary my-4">
+                        Our goal is to help businesses build a strong
+                        online presence with modern design and reliable
+                        digital solutions.
+                    </p>
+
+                    <p>
+                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                        Modern and responsive websites
+                    </p>
+
+                    <p>
+                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                        User-friendly design
+                    </p>
+
+                    <p>
+                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                        Clean and organized code
+                    </p>
+
+                    <p>
+                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                        Quality-focused solutions
+                    </p>
+
+                    <a href="#contact" class="btn btn-primary btn-lg mt-3">
+                        Work With Us
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row text-center g-4">
+
+                <div class="col-6 col-lg-3">
+                    <h2 class="display-5 fw-bold">50+</h2>
+                    <p class="mb-0">Projects Completed</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h2 class="display-5 fw-bold">30+</h2>
+                    <p class="mb-0">Happy Clients</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h2 class="display-5 fw-bold">10+</h2>
+                    <p class="mb-0">Team Members</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h2 class="display-5 fw-bold">24/7</h2>
+                    <p class="mb-0">Support</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold">GET IN TOUCH</h6>
+                <h2 class="display-5 fw-bold">Contact Us</h2>
+                <p class="text-secondary">
+                    Tell us about your project or idea.
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+
+                            <form action="#" method="post">
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="Enter your name"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" id="email" class="form-control"
+                                            placeholder="Enter your email" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" id="subject" class="form-control" placeholder="Enter subject"
+                                            required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Your Message</label>
+                                        <textarea id="message" class="form-control" rows="5"
+                                            placeholder="Write your message" required></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            Send Message <i class="bi bi-send"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="fw-bold">
+                        Tech<span class="text-info">Nova</span>
+                    </h3>
+
+                    <p class="text-white-50 mt-3">
+                        We create modern digital experiences to help
+                        businesses grow and succeed online.
+                    </p>
+
+                    <div class="d-flex gap-3 fs-4 mt-3">
+                        <a href="https://www.facebook.com/" class="link-light" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="link-light" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="link-light" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/" class="link-light" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="link-light link-underline-opacity-0">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="link-light link-underline-opacity-0">About</a></li>
+                        <li class="mb-2"><a href="#services" class="link-light link-underline-opacity-0">Services</a>
+                        </li>
+                        <li class="mb-2"><a href="#projects" class="link-light link-underline-opacity-0">Projects</a>
+                        </li>
+                        <li class="mb-2"><a href="#contact" class="link-light link-underline-opacity-0">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Web Development</li>
+                        <li class="mb-2">UI/UX Design</li>
+                        <li class="mb-2">Digital Marketing</li>
+                        <li class="mb-2">E-Commerce</li>
+                        <li class="mb-2">Technical Support</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <p class="text-white-50">
+                        <i class="bi bi-envelope me-2"></i>
+                        hello@example.com
+                    </p>
+                    <p class="text-white-50">
+                        <i class="bi bi-telephone me-2"></i>
+                        +92 300 0000000
+                    </p>
+                    <p class="text-white-50">
+                        <i class="bi bi-geo-alt me-2"></i>
+                        Pakistan
+                    </p>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary mt-4">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="text-white-50 mb-2 mb-md-0">
+                    &copy; 2026 TechNova. All rights reserved.
+                </p>
+
+                <a href="#home" class="link-light text-decoration-none">
+                    Back to Top ↑
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS: Navbar toggle ke liye -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
